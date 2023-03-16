@@ -1,0 +1,10 @@
+{
+  "indent": 2,
+  "diff": true,
+  "compact": true,
+  "noDuplicateKeys": true,
+  "continue": true,
+  "trailingNewline": true,
+  "check": true,
+  "patterns": ["**/*.json", "!**/node_modules", "!**/package-lock.json", "!**/package.json"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "test-jsonlint",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "jsonlint",
+    "lint:fix": "npm run lint -- --in-place --pretty-print"
+  },
+  "keywords": [],
+  "author": "Svante Bengtson <svante.bengtson@zmartagroup.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@prantlf/jsonlint": "^14.0.2"
+  }
+}
